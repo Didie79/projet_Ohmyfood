@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+:root {
+  --violet: #9356dc;
+  --pink: #ff79da;
+  --blue-green: #99e2d0;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+/*zone titre*/
+header {
+  position: relative;
+  z-index: 1000;
+  box-shadow: 10px 5px 5px rgb(211, 208, 208);
+  padding: 0 0 1px 0;
+}
+header .logo h1 {
+  text-align: center;
+  font-family: Shrikhand, cursive;
+}
+
+.location {
+  background-color: rgba(211, 208, 208, 0.432);
+  padding: 2px 0 1px 0;
+  border-top-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location .dot {
+  padding-right: 0.5rem;
+}
+
+.presentation {
+  background: rgba(245, 247, 246, 0.8901960784);
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+.presentation .reservation {
+  padding: 0.5rem 1.5rem;
+}
+.presentation .btn {
+  border-radius: 25px;
+  background: linear-gradient(180deg, #9356dc, #ff79da);
+  box-shadow: 1px 2px 2px 1px rgb(211, 208, 208);
+  border: none;
+  padding: 1rem 3rem;
+  transition: 0.2s ease;
+}
+.presentation .btn:hover {
+  background: hsl(295deg, 42%, 56%);
+  cursor: pointer;
+}
+
+.btnText {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

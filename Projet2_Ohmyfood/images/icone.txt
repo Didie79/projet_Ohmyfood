@@ -1,0 +1,10 @@
+<i class="fa-solid fa-location-dot"></i>
+<i class="fa-sharp fa-solid fa-mobile-screen-button"></i> tel
+<i class="fa-solid fa-list"></i> menue burger
+<i class="fa-solid fa-store"></i> store
+<i class="fa-solid fa-heart"></i>
+<i class="fa-thin fa-heart"></i>
+<i class="fa-solid fa-utensils"></i>
+<i class="fa-light fa-handshake-angle"></i>
+font-family: 'Roboto', sans-serif;
+font-family: 'Shrikhand', cursive;
